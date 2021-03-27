@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <label>Você é o Jogador:</label>
+  <label id="jg">XX</label>
+  <table>
+    <tr>
+      <td> <button id="c1" onclick="f1()"></button></td>
+      <td> <button id="c2" onclick="f2()"></button></td>
+      <td> <button id="c3" onclick="f3()"></button></td>
+    </tr>
+    <tr>
+      <td> <button id="c4" onclick="f4()"></button></td>
+      <td> <button id="c5" onclick="f5()"></button></td>
+      <td> <button id="c6" onclick="f6()"></button></td>
+    </tr>
+    <tr>
+      <td> <button id="c7" onclick="f7()"></button></td>
+      <td> <button id="c8" onclick="f8()"></button></td>
+      <td> <button id="c9" onclick="f9()"></button></td>
+    </tr>
+  </table>
+  <label>Jogador:</label>
+  <label id="vez">O</label>
+  <label>faça a jogada.</label>
+  <ul id="lista"></ul>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/jogo.js"></script>
+</body>
+
+</html>
